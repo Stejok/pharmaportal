@@ -1,0 +1,248 @@
+body {
+	overflow-x: hidden;
+	-webkit-overflow-x: hidden;
+	-moz-overflow-x: hidden;
+	-o-overflow-x: hidden;
+	background: #ffffff;
+	margin: 0 auto;
+	height: 100%;
+}
+#center {
+	width: 809px;
+	margin: 0 auto;
+	box-shadow: -10px -1px 300px 100px #B4B4B4;
+}
+#mainPage, #PatientScreening, #LatestCPDmodules, #InPharmacyMagazine, #LatestNews, #FAQandTutorials {
+	width: 100%;
+	margin: 0 auto;
+}
+
+.header, .account, .search, .callbutton, .li, .container {
+	display: block;
+}
+
+.header {
+	height: 154px;
+}
+
+#logo {
+	background-image:url(http://www.sinfuldesign.com/roma/pharmaportal/spic/0header.png);
+	display: block;
+	text-indent: -9999px;
+	width: 592px;
+	height: 154px;
+}
+
+.search, .callbutton {
+	width: 320px;
+	margin: 0px;
+}
+
+.account {
+	width: 250px;
+	margin: 0px;
+	top: -150px;
+	left: 560px;
+}
+.search {
+	top: -140px;
+	left: 517px;
+}
+
+.callbutton {
+	top: -130px;
+	left: 486px;
+}
+
+.greenbutton {
+	top: 6px;
+	left: 555px;
+}
+
+.account, .search, .callbutton {
+	position: relative;
+	font-family: arial;
+  	/* display: block;*/
+}
+.account a, .callbutton a {
+	text-decoration: none;
+	color: #5A6762;
+}
+
+.callNumber {
+	font-size: 150%;
+	color: #5A6762;
+}
+
+#search {
+	position: relative;
+  	width: 200px;
+  	margin: 0 auto;
+  	padding: 0;
+}
+.search input {
+  	width: 100%;
+  	height: 32px;
+  	padding-left: 10px;
+  	border: 1px solid #B4B4B4;
+  	outline: none;
+  	color: #B4B4B4;
+}
+.search button {
+  	position: absolute; 
+  	top: 0px;
+  	right: -16px;
+  	width: 42px;
+  	height: 36px;
+  	border: none;
+  	cursor: pointer;
+}
+
+#navmenu {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	position: relative;
+	top: -41px;
+}
+
+.container {
+	position: relative;
+	top: -42px;
+	width: 100%;
+	height: 100%;
+}
+
+#footer .partName, .partName {
+	position: relative;
+	margin: 0 auto;
+  	font-size: 150%;
+}
+
+.partName {
+	background:#4299DC; 
+}
+
+#footer, #footer .partName {
+	background:#3E6F96; 
+}
+
+#footer .partName {
+	line-height:70px;
+}
+
+#footer .partText {
+	line-height:22px;
+}
+
+.partName, .li a {
+	line-height:50px;
+}
+
+.greenbutton {
+	line-height: 32px;
+}
+
+.partText, .partName, .greenbutton, .li a {
+	color:#ffffff; 
+  	padding:0px 15px;
+  	font-family: arial;
+  	display: block; 
+}
+
+.greenbutton {
+	position: absolute;
+	text-decoration: none;
+  	background:#006837;
+  	border-radius: 10px;
+  	border: 2px solid #ffffff;
+  	-moz-transition: all 0.3s 0.01s ease;
+ 	-o-transition: all 0.3s 0.01s ease;
+ 	-webkit-transition: all 0.3s 0.01s ease;
+}
+
+.greenbutton:hover {
+	background: #00A537;
+}
+
+.li {
+	list-style: none;
+ 	margin: 0;
+  	padding-left: 0;
+  	margin-top:25px;
+  	background:#2B4C67;
+  	height: 50px;
+}
+.li a {
+  	text-decoration: none;
+  	background:#3E6F96;
+  	border-right: 1px solid #2B4C67;
+ 	-moz-transition: all 0.3s 0.01s ease;
+ 	-o-transition: all 0.3s 0.01s ease;
+ 	-webkit-transition: all 0.3s 0.01s ease;
+}
+.li a:hover {
+  	background:#4299DC;
+}
+.li li {
+  	float:left;
+}
+
+.piclinks {
+	position: relative;
+	top: 12px;
+	left: 16px;
+}
+
+#footer {
+	position: relative;
+	padding: 0;
+	margin: 0;
+}
+
+.soon {
+	margin: 0 auto;
+	padding: 1px;
+	text-align: center;
+}
+
+.patientTable {
+	font-family: arial;
+	
+	width: 770px;
+	text-align: left;
+	border-collapse: collapse;
+	background: #FFFFFF;
+	margin: 20px;
+}
+.patientTable th {
+	font-size: 13px;
+	color: #BD1622;
+	// text-shadow: 0 0 1px #DF0D18;
+	background-color: #FFFFFF;
+	border-bottom: 1px solid #2C6D86;
+	padding: 12px 17px;
+}
+.patientTable td {
+	font-size: 12px;
+	color: #747F7B;
+	border: 1px solid #2C6D86;
+	border-right: 1px solid #FFFFFF;
+	border-bottom: 1px solid #8CB0BD;
+	padding: 7px 17px;
+}
+
+.patientTable td:first-child {
+	font-size: 13px;
+	color: #5A6762;
+	text-shadow: 0 0 1px #a09f9d;
+}
+
+.patientTable td:last-child {
+	font-size: 13px;
+	color: #FFFFFF;
+	text-shadow: 0 0 1px #a09f9d;
+	background-color: #004F6D;
+	text-align: center;
+	padding: 7px;
+}

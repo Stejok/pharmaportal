@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Pharma Portal</title>
+	<link rel="icon" type="image/vnd.microsoft.icon" href="http://www.sinfuldesign.com/roma/pharmaportal/path-to/favicon.ico">
+	<link rel="icon" type="image/png" href="http://www.sinfuldesign.com/roma/pharmaportal/path-to/a-hand-drawn-heart-16-180829.png">
+	<link rel="icon" type="image/png" href="http://www.sinfuldesign.com/roma/pharmaportal/path-to/a-hand-drawn-heart-32-180829.png">
+	<link rel="SHORTCUT ICON" type="image/x-icon" href="http://www.sinfuldesign.com/roma/pharmaportal/path-to/favicon.ico">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="jscript.div.hidden.js" type="text/javascript" charset="utf-8"></script>
+	<script>document.title="Pharma Portal";</script>
+</head>
+<body scroll="no">
+	<div id="center">
+	<!-- Header --><div class="header">
+		<!-- {{page.header}} -->
+	<a href="#Southgrove Pharmacy" onclick="mainPage()" id="logo">&nbsp;</a>
+
+		<!-- Log in or create account --><div class="account">
+			<img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/manLogIn.png" alt="">&nbsp;
+			<a href="#"><b>Log in</b></a>&nbsp;<span>or</span>&nbsp;<a href="route:registration_link.register"><b>create an account</b></a>
+		</div>
+
+		<!-- Header search --><div class="search">
+			<form id="search" action="https://google.com/search" method="get">
+				<input type="text" value="Search" onfocus="this.value=''" onblur="this.value='Search'" title="Search">
+				<button type="submit"><span style="color:#ffffff; font-size: 150%;">&#128269;</span></button>
+			</form>
+		</div>
+
+		<!-- Call button --><div class="callbutton">
+			<a href="#"><b>Questions?</b></a>&nbsp;
+			<a href="#"><i>click here to contact us or call</i></a>
+			<br><span class="callNumber"><strong>Helpline&nbsp;&nbsp;&nbsp;0&nbsp;800&nbsp;&nbsp;123&nbsp;&nbsp;456</strong></span>
+		</div>
+		
+		</div>
+
+	<!-- MainMenu --> <div id="navmenu">
+		<!-- {{page.navigation}} -->
+		<ul class="li">
+		  	<li><a href="#Patient Screening" onclick="PatientScreening()">Patient Screening</a></li>
+		  	<li><a href="#Latest CPD modules" onclick="LatestCPDmodules()">Latest CPD modules</a></li>
+		  	<li><a href="#In Pharmacy Magazine" onclick="InPharmacyMagazine()">In Pharmacy Magazine</a></li>
+		  	<li><a href="#Latest News" onclick="LatestNews()">Latest News</a></li>
+		  	<li style="float: right;"><a href="#FAQ and Tutorials" onclick="FAQandTutorials()">FAQ and Tutorials</a></li>
+		</ul>
+		
+	</div>
+	<!-- Contents of --> <div class="container">
+		
+		<!-- Main page --> <div id="mainPage">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">Southgrove Pharmacy</p>
+			</div>
+			<div class="piclinks">
+			<a href="#Patient Screening" onclick="PatientScreening()"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/1.png" alt=""></a>
+			<a href="#Latest CPD modules" onclick="LatestCPDmodules()"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/2.png" alt=""></a>
+			<a href="#In Pharmacy Magazine" onclick="InPharmacyMagazine()"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/3.png" alt=""></a>
+			<a href="#Latest News" onclick="LatestNews()"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/4.png" alt=""></a>
+			<a href="#FAQ and Tutorials" onclick="FAQandTutorials()"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/5.png" alt=""></a>
+			</div>
+		</div>
+
+		<!-- Patient Screening --> <div id="PatientScreening" hidden="">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">View or perform new screen</p>
+			</div>
+			<a href="#" class="greenbutton">New patient full health screen</a>
+			<table class="patientTable">
+				<tr>
+					<th>Surname</th>
+					<th>Forename</th>
+					<th>Date of birth</th>
+					<th>Postcode</th>
+					<th>Screens</th>
+					<th>Last visit</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>Roberts</td>
+					<td>David</td>
+					<td>26/08/1970</td>
+					<td>BH13 6DG</td>
+					<td>7</td>
+					<td>05/07/17 - 14:41</td>
+					<td>Screen or view</td>
+				</tr>
+				<tr>
+					<td>Smith</td>
+					<td>Tom</td>
+					<td>01/01/1973</td>
+					<td>DF3 KJ4</td>
+					<td>5</td>
+					<td>03/02/17 - 17:32</td>
+					<td>Screen or view</td>
+				</tr>
+				<tr>
+					<td>Richards</td>
+					<td>Jenny</td>
+					<td>26/08/1970</td>
+					<td>BH13 6DG</td>
+					<td>2</td>
+					<td>05/07/17 - 12:44</td>
+					<td>Screen or view</td>
+				</tr>
+				<tr>
+					<td>Belle</td>
+					<td>Sarah</td>
+					<td>26/08/1970</td>
+					<td>BH13 6DG</td>
+					<td>5</td>
+					<td>05/07/17 - 18:11</td>
+					<td>Screen or view</td>
+				</tr>
+				<tr>
+					<td>Gibbons</td>
+					<td>Simon</td>
+					<td>26/08/1970</td>
+					<td>BH13 6DG</td>
+					<td>11</td>
+					<td>05/07/17 - 11:41</td>
+					<td>Screen or view</td>
+				</tr>
+			</table>
+		</div>
+
+		<!-- Latest CPD modules --> <div id="LatestCPDmodules" hidden="">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">Appraisal and revalidation</p>
+			</div>
+			<div class="soon"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/comingsoon.jpg" alt=""></div>
+		</div>
+
+		<!-- In Pharmacy Magazine --> <div id="InPharmacyMagazine" hidden="">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">Analysis and in depth information</p>
+			</div>
+			<div class="soon"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/comingsoon.jpg" alt=""></div>
+		</div>
+
+		<!-- Latest News --> <div id="LatestNews" hidden="">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">Latest news affecting community pharmacies</p>
+			</div>
+			<div class="soon"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/comingsoon.jpg" alt=""></div>
+		</div>
+
+		<!-- FAQ and Tutorials --> <div id="FAQandTutorials" hidden="">
+			<div style="margin: 0px; padding: 0px;">
+			<!-- {{page.page_title}} -->
+			<p class="partName">Instructions and help</p>
+			</div>
+			<div class="soon"><img src="http://www.sinfuldesign.com/roma/pharmaportal/spic/comingsoon.jpg" alt=""></div>
+		</div>
+		
+	</div>
+
+	<!-- Footer --><div id="footer">
+		<!-- {{page.footer}} -->
+		<p class="partName">Screening help?</p>
+		<p class="partText">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla sit amet tempor ipsum. Donec consectetur laoreet turpis. Aenean ullamcorper diam turpis, et tempor leo scelerisque vel. Ut vestibulum pellentesque nibh, ut tincidunt dolor faucibus in. Maecenas nec accumsan felis. Sed sodales in eros sit amet porta. Etiam fermentum tortor nec consequat vulputate. Ut tincidunt egestas felis, a pretium nisl blandit eget. Duis id semper magna. Cras vitae risus odio.</p>
+		<br>
+		</div>
+		
+	</div>
+</body>
+</html>
